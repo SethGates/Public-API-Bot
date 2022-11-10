@@ -30,9 +30,9 @@ client.once("ready", () => {
   });
 });
 
-// Send message to Discord channel on start
+// Send message to Discord channel on start (WHEN ENABLED)
 client.on("ready", (client) => {
-  client.channels.cache.get("1034709909134131240").send("Virginity Venue Test");
+  // client.channels.cache.get("1034709909134131240").send("Bot up");
 
   // Starts listener on bot init
   let grBot = new GrListener(grToken, 2000);
