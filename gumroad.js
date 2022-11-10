@@ -52,7 +52,8 @@ class GrListener {
           for (const product of body.products) {
             pIds.push(product.id);
 
-            if (self.productIds.indexOf(product.id) < 0) {
+            // Checks for difference in array, and published state
+            if (self.productIds.indexOf(product.id) < 0 && product.published == true) {
               //console.log(product.id + " is new.");
               updated = true;
               newProducts.push(product);

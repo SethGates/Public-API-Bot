@@ -48,10 +48,7 @@ client.on("ready", (client) => {
         .send(
           product.name +
             ": " +
-            product.short_url +
-            " $" +
-            product.price +
-            product.description
+            product.short_url 
         );
     }
   });
