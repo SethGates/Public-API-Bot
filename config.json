@@ -1,0 +1,6 @@
+{
+	"clientId": "your discord bot app id here",
+	"guildId": "Your discord server id here",
+	"token": "Your discord bot token here",
+	"grToken": "Your grToken here"
+}

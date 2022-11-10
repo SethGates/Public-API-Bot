@@ -1,0 +1,15 @@
+{
+  "name": "newapibot",
+  "version": "1.0.0",
+  "description": "Discord bot performing API calls to Gumroad",
+  "main": "apibot.js",
+  "scripts": {
+    "start": "node apibot.js"
+  },
+  "author": "Seth, Jason",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3"
+  }
+}
