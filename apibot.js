@@ -25,8 +25,8 @@ const { ActivityType } = require("discord.js");
 
 client.once("ready", () => {
   console.log("Bot up");
-  client.user.setActivity("Collins Gumroad for a new product!", {
-    type: ActivityType.Watching,
+  client.user.setActivity("Your custom status here", {
+    type: ActivityType."Your status type here",
   });
 });
 
@@ -39,12 +39,12 @@ client.on("ready", (client) => {
   grBot.onNewProduct((products) => {
     //console.log(products);
     client.channels.cache
-      .get("1034709909134131240")
-      .send("There are new products available!");
+      .get("Your channel ID here")
+      .send("Your custom message here");
     for (const product of products) {
       //console.log(product.name, product.short_url);
       client.channels.cache
-        .get("1034709909134131240")
+        .get("Your channel ID here")
         .send(
           product.name +
             ": " +
