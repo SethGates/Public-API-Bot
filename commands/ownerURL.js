@@ -2,10 +2,10 @@ const { SlashCommandBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName("gumroad")
-    .setDescription("Replies with Collins Gumroad!"),
+    .setName("Your command name here!")
+    .setDescription("Your commands description here"),
   async execute(interaction) {
-    await interaction.reply("https://turbovirgin.gumroad.com/");
+    await interaction.reply("Your command response here");
   },
 };
 
