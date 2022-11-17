@@ -1,4 +1,4 @@
-# PrivateAPIBOT
-
-This bot is designed to be modular; while running on discord's must up to date "discord.js" being V14, as of 11/9/2022.
-This bot can be tailored to anyone looking to make a basic bot with commands, and perform repetitive API calls to a website of their choice.
+This bot is running off of DiscordJS V14. 
+Its modular, and this bot contains the skeleton for a basic Discord bot, as well as an API call built into it. This is the "gumroad.js" folder.
+Fields that require custom numbers such as tokens, IDs, etc have been replaced with a string saying "Your ___ here".
+A custom command is also included, so it is simple to see how to replicate this and make your own commands. Note you have to manually push commands to Discord.
